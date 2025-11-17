@@ -1,279 +1,279 @@
 module.exports = {
-    footer: "Developed by SSRR | Prime Music v1.2",
+    footer: "EU4-5 ÇÖPTÜR",
     ping: {
-      description: "Check the bot latency",
+      description: "Gecikmeyi test ediyorum.",
       response: "Pinging...",
       embed: {
-        title: "Bot Latency",
-        responseTime: "- Bot Response Time : **{latency}ms**",
+        title: "Bot Gecikme",
+        responseTime: "- Bot Cevap Süresi : **{latency}ms**",
         websocketPing: "- WebSocket Ping : **{ping}ms**",
-        uptime: "- Uptime : **{uptime}**",
-        footer: "Developed by SSRR | Prime Music v1.2"
+        uptime: "- Ayaktayım : **{uptime}**",
+        footer: "EU4-5 ÇÖPTÜR"
       }
     },
     addsong: {
       embed: {
-          playlistNotFound: "Playlist Not Found",
-          playlistNotFoundDescription: "- Playlist not found.",
-          accessDenied: "Access Denied",
-          accessDeniedDescription: "- You do not have permission to add songs to this playlist.",
-          songAdded: "Song Added",
-          songAddedDescription: "- Song **{songInput}** has been added to playlist **{playlistName}**.",
-          error: "Error",
-          errorDescription: "- An error occurred while adding the song."
+          playlistNotFound: "Oynatma Listesi Bulunamadı",
+          playlistNotFoundDescription: "- Oynatma Listesini Bulamadım Balım.",
+          accessDenied: "Erişim Engellendi",
+          accessDeniedDescription: "- Şarkı yada oynatma listesi eklemek için yetkin yok.",
+          songAdded: "Şarkı eklendi.",
+          songAddedDescription: "-  **{songInput}** oynatma listesine eklendi. **{playlistName}**.",
+          error: "HATA",
+          errorDescription: "- Şarkı eklenirken bir hata oluştu."
       }
   },
   allplaylists: {
     embed: {
-        noPlaylistsFound: "No Playlists Found",
-        noPlaylistsFoundDescription: "- No public playlists are currently available.",
-        createdBy: "Created by: {userId}",
+        noPlaylistsFound: "Oynatma listesi bulunamadı.",
+        noPlaylistsFoundDescription: "- Oynatma listesi bulunamadı.",
+        createdBy: "Oluşturan: {userId}",
         serverName: "Server: {serverName}",
-        songs: "Songs: **{songCount}**",
+        songs: "Şarkılar: **{songCount}**",
         publicPlaylistsTitle: "Public Playlists (Page {currentPage}/{totalPages})",
-        error: "Error",
-        errorDescription: "- An error occurred while fetching the playlists."
+        error: "HATA",
+        errorDescription: "- Playlist başlatılırken hata oluştu."
     }
   },
   autoplay: {
     embed: {
-        autoplayUpdated: "Autoplay Updated",
-        autoplayStatus: "- Autoplay has been **{status}** for this server.",
-        enabled: "enabled",
-        disabled: "disabled",
-        error: "Error",
-        errorDescription: "- An error occurred while updating autoplay."
+        autoplayUpdated: "Otomatik oynat güncellendi",
+        autoplayStatus: "- Otomatik oynat**{status}** ",
+        enabled: "aktif",
+        disabled: "kapatıldı.",
+        error: "HATA",
+        errorDescription: "- Otomatik oynat güncellenirken hata oluştu."
     },
-    commandDescription: "Enable or disable autoplay"
+    commandDescription: "Otomatik oynatı aç/kapat."
   },
   createplaylist: {
     embed: {
-        playlistExists: "Playlist Exists",
-        playlistExistsDescription: "- A playlist with this name already exists.",
-        playlistCreated: "Playlist Created",
-        playlistCreatedDescription: "- Playlist **{playlistName}** has been created.\n- Visibility: **{visibility}**.",
-        private: "Private",
-        public: "Public",
-        error: "Error",
-        errorDescription: "- An error occurred while creating the playlist."
+        playlistExists: "Oynatma listesi mevcut.",
+        playlistExistsDescription: "- Bu isimde bir playlist mevcut.",
+        playlistCreated: "Oynatma listesi oluşturuldu.",
+        playlistCreatedDescription: "- Oynatma listesi **{playlistName}** oluşturuldu..\n- Visibility: **{visibility}**.",
+        private: "Gizli",
+        public: "Herkese açık",
+        error: "HATA",
+        errorDescription: "- Oynatma listesi oluştururken hata oluştu."
     },
-    commandDescriptionName: "Enter playlist name",
-    commandDescriptionPrivate: "Set playlist as private (visible only to you)"
+    commandDescriptionName: "Oynatma listesinin adını girin",
+    commandDescriptionPrivate: "Oynatma listesini gizle (Sadece sen görebilirsin :wink:)"
   },
   deleteplaylist: {
     embed: {
-        playlistNotFound: "Playlist Not Found",
-        playlistNotFoundDescription: "- Playlist not found.",
-        accessDenied: "Access Denied",
-        accessDeniedDescription: "- You do not have permission to delete this playlist.",
-        playlistDeleted: "Playlist Deleted",
-        playlistDeletedDescription: "- Playlist **{playlistName}** has been deleted.",
-        error: "Error",
-        errorDescription: "- An error occurred while deleting the playlist."
+        playlistNotFound: "Oynatma listesi bulunamadı.",
+        playlistNotFoundDescription: "- Oynatma listesini bulamadım.",
+        accessDenied: "Erişim engellendi.",
+        accessDeniedDescription: "- Bu oynatma listesine erişim iznin yok.",
+        playlistDeleted: "Oynatma listesi başarıyla silindi.",
+        playlistDeletedDescription: "- Oynatma listesi **{playlistName}** silindi.",
+        error: "HATA",
+        errorDescription: "- Oynatma listesini silerken bir hata oluştu."
     },
-    commandDescriptionName: "Enter playlist name"
+    commandDescriptionName: "Oynatma listesinin adını girin."
   },
   deletesong: {
     embed: {
-        playlistNotFound: "Playlist Not Found",
-        playlistNotFoundDescription: "- Playlist not found.",
-        songDeleted: "Song Deleted",
-        songDeletedDescription: "- Song **{songName}** has been deleted from playlist **{playlistName}**.",
-        error: "Error",
-        errorDescription: "- An error occurred while deleting the song."
+        playlistNotFound: "Oynatma listesi bulunamadı",
+        playlistNotFoundDescription: "- Oynatma listesini bulamadım :Nahh:",
+        songDeleted: "Şarkı listeden kaldırıldı.",
+        songDeletedDescription: "- Şarkı **{songName}** başarıyla silindi. **{playlistName}**.",
+        error: "HATA",
+        errorDescription: "- Şarkıyı listeden kaldırırken bir hatayla karşılaştım :face_holding_back_tears:"
     },
-    commandDescriptionPlaylist: "Enter playlist name",
-    commandDescriptionSong: "Enter song name"
+    commandDescriptionPlaylist: "Oynatma listesinin adını gir",
+    commandDescriptionSong: "şarkının adını gir"
   },
   filters: {
     embed: {
-        error: "Error",
-        noPlayer: "- No active player found. Please play a song first.",
-        wrongChannel: "- You need to be in the same voice channel as the bot to use this command.",
-        filtersCleared: "All filters have been cleared.",
-        invalidFilter: "Invalid filter selected.",
-        filterApplied: "Filter **{filter}** has been applied.",
-        errorProcessing: "- An error occurred while processing your request."
+        error: "Hata",
+        noPlayer: "- Çalan şarkı yok. Önce şarkı açsana",
+        wrongChannel: "- Botu kullanmak için önce aynı sesli sohbette olmalısın.",
+        filtersCleared: "Tüm filtreler silindi.",
+        invalidFilter: "Bilinmeyen filtre seçildi.",
+        filterApplied: "Filtre **{filter}** uygulandı. ",
+        errorProcessing: "- İsteğini gerçekleştirirken bir hatayla karşılaştım."
     },
-    commandDescription: "Select a filter to apply"
+    commandDescription: "Uygulamak için bir filtre seç."
   },
   help: {
     embed: {
-        title: "📜 {botName} Help Menu",
-        author: "Help",
+        title: "📜 {botName} Yardım menüsü",
+        author: "Yardım",
         description: `
-        **Welcome to {botName}!**
+        **Hoşgeldin {botName}!**
 
-        > Your ultimate music companion on Discord.
-        > Below is detailed information about the bot:
+        > Karadenizlileri götünden siken gelişmiş müzik botu :fire:
+        > Botun kullanılabilir komutları bunlar:
                 
-        **📂 Commands:** {totalCommands}
-        **🌐 Servers:** {totalServers}
-        **👥 Users:** {totalUsers}
-        **⏳ Uptime:** {uptimeString}
+        **📂 Komutlar:** {totalCommands}
+        **🌐 Sunucular:** {totalServers}
+        **👥 Kullanıcılar:** {totalUsers}
+        **⏳ Çalışma saati:** {uptimeString}
         **📡 Ping:** {ping}ms
         `,
-        availableCommands: "Available Commands",
-        noDescription: "No description available.",
-        noCommands: "No commands found.",
-        error: "❌ An error occurred while fetching the help menu."
+        availableCommands: "Kullanılabilen komutlar",
+        noDescription: "Açıklama yok",
+        noCommands: "Komut bulunamadı.",
+        error: "❌ Yardım menüsü getirilirken hata oluştu."
     },
-    commandDescription: "Get information about the bot"
+    commandDescription: "Bot hakkında bilgi edin."
   },
   myplaylists: {
     embed: {
-        noPlaylistsFound: "No Playlists Found",
-        noPlaylistsFoundDescription: "- You have not created any playlists.",
-        yourPlaylistsTitle: "Your Playlists (Page {currentPage}/{totalPages})",
-        visibility: "Visibility",
-        private: "Private",
-        public: "Public",
+        noPlaylistsFound: "Oynatma listesi bulunamadı.",
+        noPlaylistsFoundDescription: "- Herhangi bir oynatma listesi oluşturmamışsın.",
+        yourPlaylistsTitle: "Oynatma listelerin (Page {currentPage}/{totalPages})",
+        visibility: "Görünürlük",
+        private: "Gizli",
+        public: "Herkese açık",
         server: "Server",
-        songs: "Songs",
-        error: "Error",
-        errorDescription: "- An error occurred while fetching your playlists."
+        songs: "Şarkılar",
+        error: "HATA",
+        errorDescription: "- Çalma listeleri getirilirken hata oluştu."
     }
   },
   nowPlaying: {
     embed: {
-        error: "Error",
-        noSong: "- There is no song currently playing.",
-        nowPlaying: "Now Playing!",
-        errorDescription: "- An error occurred while processing your request."
+        error: "HATA",
+        noSong: "- Şuanda çalan şarkı yok.",
+        nowPlaying: "Çalıyor",
+        errorDescription: "- Talebiniz işlenirken hata oluştu."
     }
   },
   pause: {
     embed: {
-        error: "Error",
-        noActivePlayer: "- No active player found.",
-        paused: "Paused!",
-        pausedDescription: "**- Playback has been paused!**",
-        errorDescription: "- An error occurred while processing your request."
+        error: "HATA",
+        noActivePlayer: "- Çalan bir şey yok.",
+        paused: "Durdurdum.",
+        pausedDescription: "**- Çalan şarkı durduruldu.**",
+        errorDescription: "- İstediğini gerçekleştirirken bir hatayla karşılaştım."
     }
   },
   play: {
     embed: {
-        error: "Error",
-        noVoiceChannel: "- You need to be in a voice channel to use this command.",
-        noLavalinkNodes: "- No available Lavalink nodes to process the request.",
-        noResults: "- No results found.",
-        requestUpdated: "Request Updated!",
-        successProcessed: "- Your request has been successfully processed.\n- Please use buttons to control playback",
-        errorProcessing: "- An error occurred while processing your request."
+        error: "HATA",
+        noVoiceChannel: "- Bu komutu kullanmak için bir ses kanalında olmalısın.",
+        noLavalinkNodes: "- İsteği gerçekleştirmek için kullanılabilir Lavalink Node yok.",
+        noResults: "- Sonuçlar bulunamadı.",
+        requestUpdated: "İstekler güncellendi.",
+        successProcessed: "- Talebiniz başarıyla işlendi.\n- Oynatmayı kontrol etmek için lütfen düğmeleri kullanın.",
+        errorProcessing: "- Talebini gerçekleştirirken bir hatayla karşılaştım."
     },
-    commandDescription: "Enter song name / link or playlist"
+    commandDescription: "Şarkı yada oynatma listesi linki paylaş"
   },
   playCustomPlaylist: {
     embed: {
-        error: "Error",
-        noVoiceChannel: "- You need to be in a voice channel to use this command.",
-        playlistNotFound: "- Playlist not found.",
-        accessDenied: "Access Denied",
-        noPermission: "- You do not have permission to play this private playlist.",
-        emptyPlaylist: "- The playlist is empty.",
-        playingPlaylist: "Playing Playlist!",
-        playlistPlaying: "- Playlist **{playlistName}** is now playing.\n- Please use buttons to control playback",
-        errorResolvingSong: "- Error resolving song.",
-        errorPlayingPlaylist: "- An error occurred while playing the playlist."
+        error: "HATA",
+        noVoiceChannel: "- Bu komutu kullanmak için bir ses kanalında olmalısın.",
+        playlistNotFound: "- Oynatma listesi bulunamadı.",
+        accessDenied: "Erişim reddedildi.",
+        noPermission: "- Bu gizli oynatma listesine erişim iznin yok.",
+        emptyPlaylist: "- Oynatma listesi boş.",
+        playingPlaylist: "Çalan oynatma listesi",
+        playlistPlaying: "-  **{playlistName}** şuan çalıyor.\n- Oynatmayı kontrol etmek için düğmeleri kullanın.",
+        errorResolvingSong: "- Şarkıyı çözümlerken hata oluştu.",
+        errorPlayingPlaylist: "- Oynatma listesi çalarken bir hata oluştu."
     },
-    commandDescription: "Enter playlist name"
+    commandDescription: "Oynatma listesinin adını girin."
   },
   queue: {
     embed: {
-        queueEmpty: "Queue is Empty",
-        queueEmptyDescription: "- The queue is currently empty. Add songs using the `/play` command.",
-        currentQueue: "Current Queue",
-        noMoreSongs: "- No more songs in the queue.",
-        error: "Error",
-        errorDescription: "- An error occurred while retrieving the queue."
+        queueEmpty: "Sıra boş",
+        queueEmptyDescription: "- Sıra şuan boş. /play komutuyla sıraya şarkı ekle.",
+        currentQueue: "Şuanki sıra",
+        noMoreSongs: "- Sırada daha fazla şarkı yok.",
+        error: "HATA",
+        errorDescription: "- Sırayı geri alırken bir hata oluştu."
     }
   },
   remove: {
     embed: {
-        queueEmpty: "Queue is Empty",
-        queueEmptyDescription: "- The queue is currently empty. Add songs using the `/play` command.",
-        invalidPosition: "Error",
-        invalidPositionDescription: "- Invalid position. Enter a number between 1 and {queueLength}.",
-        songRemoved: "Song Removed",
-        songRemovedDescription: "- Removed song: **{songTitle}** from the queue.",
-        error: "Error",
-        errorDescription: "- An error occurred while removing the song from the queue."
+        queueEmpty: "Sıra boş",
+        queueEmptyDescription: "- Sıra şuan boş. /play komutuyla sıraya şarkı ekle.",
+        invalidPosition: "HATA",
+        invalidPositionDescription: "- Geçersiz pozisyon. 1 ile {queueLength} arasında bir değer girin..",
+        songRemoved: "Şarkı silindi.",
+        songRemovedDescription: "- : **{songTitle}** sıradan silindi.",
+        error: "HATA",
+        errorDescription: "- Sıradan şarkıyı kaldırırken bir hata oluştu."
     }
   },
   resume: {
     embed: {
-        noActivePlayer: "Error",
-        noActivePlayerDescription: "- No active player found.",
-        resumed: "Resumed!",
-        resumedDescription: "**- Playback has been resumed!**",
-        error: "Error",
-        errorDescription: "- An error occurred while processing your request."
+        noActivePlayer: "HATA",
+        noActivePlayerDescription: "- Aktif oynatıcı bulunamadı.",
+        resumed: "Çalmaya devam ediliyor.",
+        resumedDescription: "**- Oynatıcı çalmaya devam ediyor.**",
+        error: "HATA",
+        errorDescription: "- Talebiniz işlenirken bir hata oluştu."
     }
   },
   showsongs: {
     embed: {
-        error: "Error",
-        playlistNotFound: "- Playlist not found.",
-        accessDenied: "Access Denied",
-        noPermission: "- You do not have permission to view this private playlist.",
-        noSongs: "- No songs in this playlist.",
-        songsInPlaylist: "Songs in {playlistName}",
-        songsInPlaylistPage: "Songs in {playlistName} (Page {currentPage}/{totalPages})",
-        errorDescription: "- An error occurred while showing the songs."
+        error: "HATA",
+        playlistNotFound: "- Oynatma listesi bulunamadı.",
+        accessDenied: "Erişim Engellendi",
+        noPermission: "- Gizli oynatma listesini görmek için yetkiye sahip değilsin.",
+        noSongs: "- Oynatma listesinde şarkı yok.",
+        songsInPlaylist: " {playlistName} şarkıları",
+        songsInPlaylistPage: "{playlistName} şarkıları (Page {currentPage}/{totalPages})",
+        errorDescription: "- Oynatma listesini görüntülerken bir hata oldu."
     }
   },
   shuffle: {
     embed: {
-        queueEmpty: "Queue is Empty",
-        queueEmptyDescription: "- The queue is currently empty. Add songs using the `/play` command.",
-        queueShuffled: "Queue Shuffled",
-        queueShuffledDescription: "- The queue has been shuffled successfully.",
-        error: "Error",
-        errorDescription: "- An error occurred while shuffling the queue."
+        queueEmpty: "Sıra boş",
+        queueEmptyDescription: "- Sıra şuan boş. /play komutuyla sıraya şarkı ekle.",
+        queueShuffled: "Sıra karıştırıldı.",
+        queueShuffledDescription: "- Sıra başarıyla karıştırıldı.",
+        error: "HATA",
+        errorDescription: "- Sırayı karıştırırken bir hata oluştu."
     }
   },
   skip: {
     embed: {
-        noActivePlayer: "Error",
-        noActivePlayerDescription: "- No active player found.",
-        songSkipped: "Song Skipped!",
-        songSkippedDescription: "**- Player will play the next song!**",
-        error: "Error",
-        errorDescription: "- An error occurred while processing your request."
+        noActivePlayer: "Hata",
+        noActivePlayerDescription: "- Aktif oynatıcı yok.",
+        songSkipped: "Şarkı geçildi.",
+        songSkippedDescription: "**- Sonraki şarkıyı çalmaya başlar.**",
+        error: "Hata",
+        errorDescription: "- Talebinizi gerçekleştirirken bir hatayla karşılaştım."
     }
   },
   stop: {
     embed: {
-        noActivePlayer: "Error",
-        noActivePlayerDescription: "- No active player found.",
-        musicHalted: "Music Halted!",
-        musicHaltedDescription: "**- Playback has been stopped and player destroyed!**",
-        error: "Error",
-        errorDescription: "- An error occurred while processing your request."
+        noActivePlayer: "HATA",
+        noActivePlayerDescription: "- Aktif oynatıcı yok.",
+        musicHalted: "Şarkı durduruldu.",
+        musicHaltedDescription: "**- Şarkı durdurulur.**",
+        error: "HATA",
+        errorDescription: "- Talebinizi gerçekleştirirken bir hatayla karşılaştım."
     }
   },
   support: {
     embed: {
-        authorName: "Support Server",
-        description: "➡️ **Join our Discord server for support and updates:**\n- Discord - {supportServerLink}\n\n➡️ **Follow us on:**\n- GitHub - {githubLink}\n- Replit - {replitLink}\n- YouTube - {youtubeLink}",
-        error: "Error",
-        errorDescription: "- An error occurred while processing your request."
+        authorName: "Destek sunucusu",
+        description: "Destek ve güncellemeler için Discord sunucumuza katılın:**\n- Discord - {supportServerLink}\n\n➡️ **Bizi takip edin:**\n- GitHub - {githubLink}\n- Replit - {replitLink}\n- YouTube - {youtubeLink},
+        error: "Hata",
+        errorDescription: "- Talebinizi gerçekleştirirken bir hatayla karşılaştım. "
     }
   },
   volume: {
     embed: {
-        noActivePlayer: "Error",
-        noActivePlayerDescription: "- No active player found.",
-        volumeUpdated: "Volume Updated!",
-        volumeUpdatedDescription: "- Volume has been set to **{volume}%**",
-        error: "Error",
-        errorDescription: "An error occurred while setting the volume."
+        noActivePlayer: "Hata",
+        noActivePlayerDescription: "- Aktif oynatıcı yok.",
+        volumeUpdated: "Ses yükseltildi.",
+        volumeUpdatedDescription: "- Ses seviyesini yükseltir. **{volume}%**",
+        error: "hata",
+        errorDescription: "Ses seviyesini ayarlarken bir hata oluştu."
     },
-    volumeRangeError: "Volume level must be between 0 and 100."
+    volumeRangeError: "Ses seviyesi 0 ile 100 arasında olmalıdır."
   },
     errors: {
-      noPermission: "You don't have permission to use this command.",
-      generalError: "- Error: {error}"
+      noPermission: "Bu komutu kullanmak için yetkiye sahip değilsin.",
+      generalError: "- HATA: {error}"
     }
   };
 
