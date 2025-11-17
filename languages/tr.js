@@ -255,7 +255,7 @@ module.exports = {
   support: {
     embed: {
         authorName: "Destek sunucusu",
-        description: "Destek ve güncellemeler için Discord sunucumuza katılın:**\n- Discord - {supportServerLink}\n\n➡️ **Bizi takip edin:**\n- GitHub - {githubLink}\n- Replit - {replitLink}\n- YouTube - {youtubeLink},
+        description: "Destek ve güncellemeler için Discord sunucumuza katılın:**\n- Discord - {supportServerLink}\n\n➡️ **Bizi takip edin:**\n- GitHub - {githubLink}\n- Replit - {replitLink}\n- YouTube - {youtubeLink}",
         error: "Hata",
         errorDescription: "- Talebinizi gerçekleştirirken bir hatayla karşılaştım. "
     }
@@ -276,5 +276,6 @@ module.exports = {
       generalError: "- HATA: {error}"
     }
   };
+
 
   
