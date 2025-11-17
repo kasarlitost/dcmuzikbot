@@ -9,7 +9,7 @@ module.exports = async (client, interaction) => {
       return interaction?.reply({ content: "This command can only be used in a server.", ephemeral: true });
     }
 
-    const languageFile = path.join(__dirname, `../languages/tr.js`);
+    const languageFile = path.join(__dirname, `../languages/${config.language}.js`);
     const lang = require(languageFile);
 
     function cmd_loader() {
