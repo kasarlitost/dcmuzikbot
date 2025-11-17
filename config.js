@@ -2,7 +2,7 @@
 
 module.exports = {
   TOKEN: "",
-  language: "en",
+  language: "tr",
   ownerID: ["340188902700613634", ""], 
   mongodbUri : "mongodb+srv://kasarlitost:P1noky041.@discordbot.ohkwxtm.mongodb.net/?appName=DiscordBot",
   spotifyClientId : "",
@@ -12,7 +12,7 @@ module.exports = {
   embedColor: "#1db954",
   activityName: "Çayır Biçiyom Çayır", 
   activityType: "LISTENING",  // Available activity types : LISTENING , PLAYING
-  SupportServer: "https://discord.gg/xQF9f9yUEM",
+  SupportServer: "https://discord.gg/S2Hh8Ek4",
   embedTimeout: 5, 
   errorLog: "", 
   nodes: [
